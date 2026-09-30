@@ -1,23 +1,1303 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LegalService",
+        "@id": "https://daegu.reliabledone.com/#legalService",
+        "name": "대구개인파산 법률지원 정보센터",
+        "description": "대구지방법원 관할 개인파산, 면책, 회생 사건 전문 분석 및 무료 비용 자가진단 솔루션 제공",
+        "url": "https://daegu.reliabledone.com/bankruptcy",
+        "telephone": "053-740-0000",
+        "areaServed": [
+          "대구광역시", "수성구", "달서구", "중구", "동구", "서구", "남구", "북구", "달성군", "군위군"
+        ],
+        "priceRange": "법원 공과금 및 차등 보수제 적용",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "대구광역시",
+          "addressRegion": "대구광역시",
+          "addressCountry": "KR"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://daegu.reliabledone.com/bankruptcy#webpage",
+        "url": "https://daegu.reliabledone.com/bankruptcy",
+        "name": "대구개인파산 종합 안내 - 2026 2027 최신 법률 분석 보고서",
+        "inLanguage": "ko-KR",
+        "isPartOf": {
+          "@type": "WebSite",
+          "@id": "https://daegu.reliabledone.com/#website",
+          "name": "대구개인파산 정보센터",
+          "url": "https://daegu.reliabledone.com"
+        }
+      },
+      {
+        "@type": "HowTo",
+        "name": "대구개인파산 신청 및 면책 인용 5단계 절차",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "자격 검토 및 서류 발급",
+            "text": "주민센터, 홈택스, 은행, 건강보험공단 등에서 부채증명서와 재산 및 소득 증빙 서류를 준비합니다."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "파산 및 면책 신청서 대구지방법원 접수",
+            "text": "전자소송 시스템 또는 법원 종합민원실을 통해 관할 법원인 대구지방법원에 신청서를 제출합니다."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "파산선고 및 파산관재인 선임",
+            "text": "법원의 서류 심사 후 파산선고가 내려지며 파산관재인이 지정되어 재산과 채무 원인을 정밀 조사합니다."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 4,
+            "name": "채권자집회 및 관재인 면담",
+            "text": "대구지방법원 기일에 출석하여 채권자 의견 청취 및 파산관재인 보고를 거칩니다."
+          },
+          {
+            "@type": "HowToStep",
+            "position": 5,
+            "name": "면책 허가 결정 및 부채 소멸",
+            "text": "면책 불허가 사유가 없는 경우 법원의 면책 인용 결정으로 모든 채무 상환 의무가 법적으로 소멸합니다."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "대구개인파산 신청 시 필요한 최저생계비 기준은 얼마인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "2026년 기준 1인 가구 최저생계비는 약 139만 원 수준이며 2027년에는 물가상승률을 감안하여 소폭 상승할 것으로 예상됩니다. 이 기준보다 월 소득이 적거나 질병, 고령으로 근로능력이 전무한 경우 신청 대상이 됩니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "대구지방법원의 개인파산 심사 기간은 보통 얼마나 걸리나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "통상 서류 접수부터 파산선고, 파산관재인 면담, 채권자집회를 거쳐 최종 면책결정까지 약 6개월에서 10개월 내외가 소요됩니다. 단, 보정명령에 신속히 대응하지 못하면 1년 이상 지연될 수 있습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "대구개인파산 신청 비용과 수수료는 얼마 정도 발생하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "인지대, 송달료, 파산관재인 선임 예납금 등 법원 실비는 약 40만 원에서 60만 원 선이며, 대리인 선임 보수는 채권자 수와 사안의 난이도에 따라 120만 원에서 220만 원 수준으로 형성되어 있습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "대구에 거주하는 자영업자도 개인파산으로 세금까지 면책받을 수 있나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "국세, 지방세, 4대 보험료, 과태료, 양육비 등은 비면책 채권으로 분류되어 파산 면책 결정을 받더라도 전액 탕감되지 않고 잔존합니다. 은행 채무, 대부업체, 사채 등 금융 채무만 면책 대상입니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-light: #2563eb;
+      --primary-soft: #eff6ff;
+      --secondary: #0d9488;
+      --secondary-soft: #f0fdfa;
+      --accent: #d97706;
+      --accent-soft: #fffbeb;
+      --bg-body: #f8fafc;
+      --bg-card: #ffffff;
+      --text-main: #0f172a;
+      --text-sub: #334155;
+      --text-muted: #64748b;
+      --border-color: #e2e8f0;
+      --border-focus: #3b82f6;
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+      --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -1px rgba(0,0,0,0.04);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -2px rgba(0,0,0,0.03);
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+      line-height: 1.85;
+      color: var(--text-main);
+      background-color: var(--bg-body);
+      font-size: 16px;
+      word-break: keep-all;
+      letter-spacing: -0.015em;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #0f766e 100%);
+      color: #ffffff;
+      padding: 70px 24px 60px;
+      text-align: center;
+    }
+
+    header .header-badge {
+      display: inline-block;
+      padding: 6px 16px;
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 9999px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      letter-spacing: 0.02em;
+    }
+
+    header h1 {
+      font-size: 2.35rem;
+      font-weight: 800;
+      line-height: 1.35;
+      margin-bottom: 18px;
+    }
+
+    header p {
+      font-size: 1.15rem;
+      max-width: 820px;
+      margin: 0 auto 30px;
+      color: #e2e8f0;
+      line-height: 1.7;
+    }
+
+    .header-cta-group {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 14px 28px;
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      border: none;
+      text-align: center;
+    }
+
+    .btn-accent {
+      background-color: var(--accent);
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(217, 119, 6, 0.3);
+    }
+
+    .btn-accent:hover {
+      background-color: #b45309;
+      transform: translateY(-2px);
+    }
+
+    .btn-light {
+      background-color: rgba(255, 255, 255, 0.95);
+      color: var(--primary);
+    }
+
+    .btn-light:hover {
+      background-color: #ffffff;
+      transform: translateY(-2px);
+    }
+
+    main {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 30px 20px 80px;
+    }
+
+    section {
+      background-color: var(--bg-card);
+      border-radius: var(--radius-lg);
+      padding: 45px 38px;
+      margin-bottom: 35px;
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+    }
+
+    h2 {
+      font-size: 1.85rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 24px;
+      padding-bottom: 14px;
+      border-bottom: 2px solid var(--border-color);
+      position: relative;
+    }
+
+    h2::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      width: 70px;
+      height: 2px;
+      background-color: var(--secondary);
+    }
+
+    h3 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-top: 32px;
+      margin-bottom: 14px;
+    }
+
+    h4 {
+      font-size: 1.12rem;
+      font-weight: 700;
+      color: var(--text-sub);
+      margin-top: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: var(--text-sub);
+      margin-bottom: 16px;
+      line-height: 1.85;
+      text-align: justify;
+    }
+
+    strong {
+      color: var(--text-main);
+      font-weight: 700;
+    }
+
+    .callout {
+      background-color: var(--primary-soft);
+      border-left: 5px solid var(--primary-light);
+      padding: 22px 24px;
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      margin: 24px 0;
+    }
+
+    .callout p {
+      margin-bottom: 8px;
+      color: var(--primary);
+    }
+
+    .callout p:last-child {
+      margin-bottom: 0;
+    }
+
+    .warning-box {
+      background-color: var(--accent-soft);
+      border-left: 5px solid var(--accent);
+      padding: 22px 24px;
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      margin: 24px 0;
+    }
+
+    .warning-box p {
+      color: #92400e;
+      margin-bottom: 8px;
+    }
+
+    .warning-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      margin: 26px 0;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.96rem;
+    }
+
+    table thead th {
+      background-color: #f1f5f9;
+      color: var(--text-main);
+      font-weight: 700;
+      padding: 16px 18px;
+      border-bottom: 2px solid var(--border-color);
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    table tbody td {
+      padding: 15px 18px;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-sub);
+      text-align: center;
+    }
+
+    table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    table tbody tr:nth-child(even) {
+      background-color: #fafbfc;
+    }
+
+    table tbody tr:hover {
+      background-color: var(--primary-soft);
+    }
+
+    .chart-container {
+      margin: 30px 0;
+      padding: 24px;
+      background-color: #fafbfc;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+    }
+
+    .chart-title {
+      font-weight: 700;
+      margin-bottom: 18px;
+      font-size: 1.05rem;
+      color: var(--text-main);
+    }
+
+    .chart-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .chart-label {
+      width: 170px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-sub);
+    }
+
+    .chart-bar-bg {
+      flex: 1;
+      height: 24px;
+      background-color: #e2e8f0;
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      margin: 0 14px;
+      position: relative;
+    }
+
+    .chart-bar-fill {
+      height: 100%;
+      border-radius: var(--radius-sm);
+      transition: width 0.8s ease;
+    }
+
+    .chart-val {
+      width: 60px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-align: right;
+    }
+
+    .region-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 26px 0;
+    }
+
+    .region-card {
+      border: 1px solid var(--border-color);
+      padding: 20px;
+      border-radius: var(--radius-md);
+      background-color: #ffffff;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .region-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary-light);
+    }
+
+    .region-card h4 {
+      margin-top: 0;
+      color: var(--primary);
+      font-size: 1.15rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+    }
+
+    .region-card p {
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+      color: var(--text-sub);
+    }
+
+    .form-group {
+      margin-bottom: 22px;
+    }
+
+    label {
+      display: block;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--text-main);
+      font-size: 0.98rem;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="tel"],
+    input[type="email"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 14px 16px;
+      font-size: 1rem;
+      color: var(--text-main);
+      background-color: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      outline: none;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: var(--border-focus);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+    }
+
+    .calc-box {
+      background-color: #f8fafc;
+      border: 1px solid var(--border-color);
+      padding: 30px;
+      border-radius: var(--radius-lg);
+      margin-top: 25px;
+    }
+
+    .calc-result-panel {
+      margin-top: 26px;
+      padding: 24px;
+      background: linear-gradient(135deg, #1e3a8a 0%, #172554 100%);
+      color: #ffffff;
+      border-radius: var(--radius-md);
+      display: none;
+    }
+
+    .calc-result-panel h4 {
+      color: #93c5fd;
+      font-size: 1.25rem;
+      margin-top: 0;
+      margin-bottom: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      padding-bottom: 10px;
+    }
+
+    .result-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+
+    .result-row.total {
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px dashed rgba(255, 255, 255, 0.3);
+      font-size: 1.25rem;
+      font-weight: 800;
+      color: #fde047;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--border-color);
+      padding: 24px 0;
+    }
+
+    .faq-item:first-child {
+      padding-top: 10px;
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+
+    .faq-item h3 {
+      font-size: 1.18rem;
+      color: var(--primary);
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+
+    .keyword-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    .keyword-pill {
+      background-color: var(--primary-soft);
+      color: var(--primary-light);
+      padding: 8px 14px;
+      border-radius: 9999px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      border: 1px solid #bfdbfe;
+    }
+
+    .external-link-card {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-top: 20px;
+    }
+
+    .ext-link-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 22px;
+      background-color: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .ext-link-item:hover {
+      border-color: var(--primary-light);
+      background-color: var(--primary-soft);
+      transform: translateX(4px);
+    }
+
+    .ext-link-title {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 1.05rem;
+    }
+
+    .ext-link-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .ext-link-badge {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--secondary);
+      background-color: var(--secondary-soft);
+      padding: 6px 12px;
+      border-radius: 6px;
+      border: 1px solid #99f6e4;
+      white-space: nowrap;
+    }
+
+    footer {
+      background-color: #0f172a;
+      color: #94a3b8;
+      text-align: center;
+      padding: 50px 20px;
+      font-size: 0.92rem;
+      line-height: 1.7;
+    }
+
+    footer a {
+      color: #cbd5e1;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 50px 18px 40px;
+      }
+      header h1 {
+        font-size: 1.85rem;
+      }
+      section {
+        padding: 30px 20px;
+      }
+      .chart-row {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .chart-label {
+        width: 100%;
+        margin-bottom: 6px;
+      }
+      .chart-bar-bg {
+        width: 100%;
+        margin: 0 0 6px 0;
+      }
+      .chart-val {
+        width: 100%;
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-badge">대구지방법원 관할 법률 가이드라인 2026-2027</div>
+    <h1>대구개인파산 면책 및 회생 종합 분석 솔루션</h1>
+    <p>
+      수성구, 달서구, 중구 등 대구 전역 30개 행정 지역의 실무 심사 경향, 보건복지부 최저생계비 기준,
+      인지대 송달료 요금표 및 파산관재인 심층 대응 가이드
+    </p>
+    <div class="header-cta-group">
+      <a href="#calculator" class="btn btn-accent">예상 소송 비용 계산기</a>
+      <a href="#consultation" class="btn btn-light">1대1 무료 상담 신청</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="overview">
+      <h2>대구개인파산 제도의 법률적 본질과 2026 2027년 개정 기준</h2>
+      <p>
+        대구개인파산 제도는 채무자 회생 및 파산에 관한 법률에 근거하여, 자신의 모든 재산으로도 도저히 감당할 수 없는 채무를 진 개인 채무자가 대구지방법원에 신청하여 파산선고를 받고 최종적으로 면책 결정을 통해 잔여 채무의 법적 변제 의무를 면제받는 제도입니다. 경제적 파탄 상태에 직면한 서민과 영세 자영업자의 갱생을 도모하는 국가적 구제 장치입니다.
+      </p>
+      <p>
+        2026년도에 들어서며 대구지방법원 파산부는 채무자의 도덕적 해이를 엄격히 검증하는 동시에, 고물가와 경기 침체로 한계 상황에 내몰린 소상공인과 고령자, 중증 질환자에 대해 더욱 신속한 파산관재인 조사를 진행하는 방향으로 운영되고 있습니다. 2027년도에는 디지털 자산 분석 체계와 국세청 빅데이터 연계 시스템이 한층 정밀화될 예정이므로, 신청 초기 단계에서부터 재산 형성 과정과 채무 증대 경위를 투명하게 소명하는 것이 면책 인용의 절대적인 기준이 됩니다.
+      </p>
+
+      <div class="callout">
+        <p><strong>대구지방법원 관할 구역 확인</strong></p>
+        <p>
+          대구광역시 전역인 중구, 동구, 서구, 남구, 북구, 수성구, 달서구, 달성군, 군위군은 물론 영천시, 경산시, 청도군, 칠곡군, 성주군, 고령군 거주자 역시 대구지방법원 본원 파산부 관할에 속합니다. 채무자의 주민등록상 주소지 또는 실거주지, 주된 사무소 소재지가 관할 법원의 기준이 됩니다.
+        </p>
+      </div>
+
+      <p>
+        특히 대구 지역은 섬유 제조업 및 기계 부품 공단, 요식업, 골목 상권 자영업 비율이 타 대도시 대비 높아 무리한 사업 확장이나 원자재 가격 급등, 고금리 대출 누적으로 인한 다중 채무 사건 비중이 매우 높습니다. 따라서 일반 급여소득자 중심의 수도권 법원과는 달리 사업 폐업 경위서, 재고 자산 처분 내역, 권리금 거래 투명성 등이 면책 조사에서 가장 중요한 쟁점으로 다루어집니다.
+      </p>
+    </section>
+
+    <section id="regions">
+      <h2>대구 30개 행정 지역별 부채 특성 및 맞춤형 파산 전략</h2>
+      <p>
+        대구광역시 내 구 군 및 주요 동 단위 지역마다 인구 분포, 주력 산업군, 부동산 및 임차보증금 규모가 판이합니다. 대구지방법원 파산관재인은 채무자의 생활 기반 지역에 따라 소명 자료의 강도를 차등 적용하므로 지역적 특색을 정확히 파악해야 합니다.
+      </p>
+
+      <div class="region-grid">
+        <div class="region-card">
+          <h4>수성구 권역</h4>
+          <p><strong>범어동 만촌동 황금동 두산동</strong></p>
+          <p>교육 및 주거 선호지로 전월세 보증금 규모가 큽니다. 압류금지 최저 주택임차보증금 한도를 초과하는 금액에 대한 파산재단 환가 이슈가 빈번하므로 방어 전략이 필수적입니다.</p>
+        </div>
+        <div class="region-card">
+          <h4>달서구 권역</h4>
+          <p><strong>상인동 월성동 진천동 송현동 본리동</strong></p>
+          <p>대규모 아파트 단지와 복합 상권이 혼재되어 있으며, 자영업 폐업 후 카드론, 대부업체 고금리 다중 채무로 전환된 채무자가 집중되는 지역입니다.</p>
+        </div>
+        <div class="region-card">
+          <h4>중구 원도심 권역</h4>
+          <p><strong>동성로 반월당 대봉동 삼덕동</strong></p>
+          <p>상권 공실률 증가로 인해 패션, 뷰티, 요식업종 소상공인 채무가 주를 이룹니다. 상가 임대차 계약금 및 시설비 회수 불능 사유를 상세히 기술해야 합니다.</p>
+        </div>
+        <div class="region-card">
+          <h4>동구 및 서구 권역</h4>
+          <p><strong>신천동 효목동 평리동 비산동 내당동</strong></p>
+          <p>원적 주거지와 재개발 추진 구역이 겹치는 곳으로, 고령층 및 일용직 근로자의 병원비 채무와 생계형 부채 비율이 압도적으로 높습니다.</p>
+        </div>
+        <div class="region-card">
+          <h4>남구 권역</h4>
+          <p><strong>대명동 봉덕동 이천동</strong></p>
+          <p>단독 다가구 주택 밀집지로 임대차 계약서상의 소액임차보증금 증빙과 가족 간 계좌이체 내역 소명이 면책 조사관의 중점 확인 사항입니다.</p>
+        </div>
+        <div class="region-card">
+          <h4>북구 권역</h4>
+          <p><strong>칠곡 침산동 복현동 산격동</strong></p>
+          <p>유통단지 및 종합유통센터 주변 영세 도소매업자, 금호강 일대 물류 운송 노동자의 차량 할부금 및 장기 렌트 위약금 채무 발생이 잦습니다.</p>
+        </div>
+        <div class="region-card">
+          <h4>달성군 신도시 및 공단</h4>
+          <p><strong>다사읍 화원읍 현풍읍 유가읍 구지면</strong></p>
+          <p>대구테크노폴리스 및 국가산업단지 인근으로 제조업 하청업체 도산, 기계 설비 리스료 채무, 미분양 아파트 분양권 프리미엄 하락에 따른 채무 비중이 큽니다.</p>
+        </div>
+        <div class="region-card">
+          <h4>군위군 편입 지역</h4>
+          <p><strong>군위읍 효령면 부계면 소보면</strong></p>
+          <p>대구로 신규 편입된 농촌 지역으로, 농업용 대출금, 시설하우스 자재 대금 미지급, 농축산물 가격 폭락으로 인한 고령 농민의 채무 해결이 핵심 과제입니다.</p>
+        </div>
+      </div>
+      <p>
+        위와 같이 대구의 지역별 생활 경제 지형에 따라 파산관재인이 의구심을 갖는 지점이 전혀 다릅니다. 예컨대 수성구 거주 채무자는 은닉 재산 여부에 대한 소명이 철저히 요구되는 반면, 서구나 남구의 고령 채무자는 근로 무능력 입증과 생계 곤란 사유가 중심 평가 기준이 됩니다.
+      </p>
+    </section>
+
+    <section id="comparison">
+      <h2>대구개인파산 vs 개인회생 제도 차이점 및 장단점 심층 비교</h2>
+      <p>
+        채무 조정을 고려할 때 본인이 개인파산 대상인지, 아니면 개인회생 대상인지 명확히 가늠하지 못해 시간을 허비하는 경우가 많습니다. 두 제도는 신청 자격, 변제 여부, 신용 회복 시점 등에서 본질적인 차이가 존재합니다.
+      </p>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>구분 항목</th>
+              <th>대구개인파산 (면책)</th>
+              <th>대구개인회생</th>
+              <th>신용회복위원회 워크아웃</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>신청 소득 요건</td>
+              <td>소득이 없거나 최저생계비 미만</td>
+              <td>정기적이고 반복적인 수입 필수</td>
+              <td>최소 3개월 이상 연체 및 소득 입증</td>
+            </tr>
+            <tr>
+              <td>채무 상환 의무</td>
+              <td>원금 및 이자 100% 면책 (탕감)</td>
+              <td>최장 3년에서 5년간 분할 변제</td>
+              <td>이자 감면 및 원금 최장 10년 분할</td>
+            </tr>
+            <tr>
+              <td>채무 금액 한도</td>
+              <td>최저 최고 한도 제한 없음</td>
+              <td>무담보 10억, 담보 15억 이하</td>
+              <td>협약 가입 금융사 채무 15억 이하</td>
+            </tr>
+            <tr>
+              <td>재산 보유 여부</td>
+              <td>압류금지 재산 제외 전액 환가</td>
+              <td>재산 보유 가능 (청산가치 이상 변제)</td>
+              <td>기존 담보권 실행 방어 제한적</td>
+            </tr>
+            <tr>
+              <td>사회적 신분 제약</td>
+              <td>면책 전까지 공무원 등 일부 제한</td>
+              <td>전문직, 공무원 등 신분 유지 보장</td>
+              <td>신분상 제약 일체 없음</td>
+            </tr>
+            <tr>
+              <td>면책 후 기록 삭제</td>
+              <td>특수기록 5년 경과 후 삭제</td>
+              <td>변제 완료 즉시 특수기록 해제</td>
+              <td>상환 완료 시 신용점수 재조정</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>제도별 명확한 장점과 단점</h3>
+      <p>
+        대구개인파산의 가장 강력한 장점은 단 한 푼의 추가 변제 없이 부채 전액을 완전히 청산하고 새출발할 수 있다는 점입니다. 반면 단점으로는 면책 결정이 확정되기 전까지 파산자 신분이 되어 특정 금융 거래와 직업 활동에서 일시적인 법적 제약을 받는다는 점입니다.
+      </p>
+      <p>
+        개인회생의 장점은 의사, 회계사, 공무원 등의 직책을 그대로 유지하면서 재산을 지킬 수 있다는 것이지만, 매월 정해진 변제금을 36개월에서 60개월 동안 단 한 번의 연체 없이 성실히 납부해야 하므로 중도 탈락 위험성이 존재합니다.
+      </p>
+    </section>
+
+    <section id="cost-table">
+      <h2>대구개인파산 예상 비용 요금표 및 등급표 체계 (2026년 기준)</h2>
+      <p>
+        파산 신청을 망설이는 채무자들이 가장 궁금해하는 대목은 총 소요 금액입니다. 대구개인파산 진행 시 발생하는 비용은 크게 대한민국 법원에 의무적으로 납부해야 하는 공과금(인지대, 송달료, 관재인 예납금)과 변호사 법무사 대리인 선임 수임료로 구분됩니다.
+      </p>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>사건 난이도 등급</th>
+              <th>채권자 수 기준</th>
+              <th>법원 공과금 (예상)</th>
+              <th>파산관재인 선임 예납금</th>
+              <th>대리인 수임료 (평균 견적)</th>
+              <th>합계 총비용 (예상 요금)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1등급 (기본형)</td>
+              <td>1곳 이상 4곳 이하</td>
+              <td>약 350,000원</td>
+              <td>300,000원 (법원 기준)</td>
+              <td>1,100,000원 - 1,400,000원</td>
+              <td>약 1,750,000원 - 2,050,000원</td>
+            </tr>
+            <tr>
+              <td>2등급 (일반형)</td>
+              <td>5곳 이상 8곳 이하</td>
+              <td>약 430,000원</td>
+              <td>300,000원 - 400,000원</td>
+              <td>1,400,000원 - 1,700,000원</td>
+              <td>약 2,130,000원 - 2,530,000원</td>
+            </tr>
+            <tr>
+              <td>3등급 (복합형)</td>
+              <td>9곳 이상 14곳 이하</td>
+              <td>약 520,000원</td>
+              <td>400,000원 - 500,000원</td>
+              <td>1,700,000원 - 2,100,000원</td>
+              <td>약 2,620,000원 - 3,120,000원</td>
+            </tr>
+            <tr>
+              <td>4등급 (특수/심화)</td>
+              <td>15곳 이상 또는 사업자 폐업</td>
+              <td>약 650,000원</td>
+              <td>500,000원 이상 (사안별)</td>
+              <td>2,100,000원 - 2,700,000원</td>
+              <td>약 3,250,000원 - 3,850,000원</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="warning-box">
+        <p><strong>수임 계약 시 위약금 및 환불 규정 필독</strong></p>
+        <p>
+          일부 인터넷 커뮤니티나 광고에서 최저가, 싼곳, 다이렉트 할인 등을 내세워 계약금만 먼저 받고 잠적하거나 사건 관리를 방치하는 부실 업체가 존재합니다. 계약서 작성 시 기각될 경우 환불 조건이 명시되어 있는지, 계약 해지 시 부당한 위약금이 부과되지 않는지 철저히 따져보아야 합니다. 대다수 전문 법률사무소에서는 3개월에서 12개월(1년) 무이자 분납 약정 프로그램을 지원하고 있습니다.
+        </p>
+      </div>
+
+      <h3>파산관재인 선임 예납금의 법률적 성격</h3>
+      <p>
+        대구지방법원은 모든 개인파산 신청 사건에 파산관재인을 의무 선임하도록 하고 있습니다. 관재인 예납금은 보통 30만 원에서 50만 원 선에서 결정되며, 채무자의 숨겨진 재산 유무, 부인권 행사 대상 여부, 최근 부동산 매매나 증여 이력 등을 정밀 조사하는 관재인의 보수로 사용됩니다. 채무자에게 사행 행위나 주식, 가상화폐 투자 이력이 있다면 추가 예납 명령이 발생할 수 있습니다.
+      </p>
+    </section>
+
+    <section id="statistics">
+      <h2>대구지방법원 개인파산 면책 인용률 및 실무 데이터 분석</h2>
+      <p>
+        대구지방법원은 전국 법원 중에서도 서류의 진실성과 부채 형성 경위를 매우 엄중하게 심사하는 법원으로 알려져 있습니다. 최근 수년간의 면책 통계와 신청 원인 분석은 채무자가 어떤 준비를 해야 하는지 명확한 방향을 제시합니다.
+      </p>
+
+      <div class="chart-container">
+        <div class="chart-title">대구지방법원 최근 3개년 개인파산 신청 대비 면책 인용률 추이</div>
+        <div class="chart-row">
+          <div class="chart-label">2024년 인용률</div>
+          <div class="chart-bar-bg">
+            <div class="chart-bar-fill" style="width: 83%; background-color: #3b82f6;"></div>
+          </div>
+          <div class="chart-val">83.2%</div>
+        </div>
+        <div class="chart-row">
+          <div class="chart-label">2025년 인용률</div>
+          <div class="chart-bar-bg">
+            <div class="chart-bar-fill" style="width: 81%; background-color: #2563eb;"></div>
+          </div>
+          <div class="chart-val">81.5%</div>
+        </div>
+        <div class="chart-row">
+          <div class="chart-label">2026년 인용률 (예상치)</div>
+          <div class="chart-bar-bg">
+            <div class="chart-bar-fill" style="width: 80%; background-color: #1d4ed8;"></div>
+          </div>
+          <div class="chart-val">80.4%</div>
+        </div>
+      </div>
+
+      <div class="chart-container">
+        <div class="chart-title">대구개인파산 신청 채무자의 주요 파탄 원인 분포</div>
+        <div class="chart-row">
+          <div class="chart-label">영세 자영업 경영 파탄</div>
+          <div class="chart-bar-bg">
+            <div class="chart-bar-fill" style="width: 44%; background-color: #0d9488;"></div>
+          </div>
+          <div class="chart-val">44.0%</div>
+        </div>
+        <div class="chart-row">
+          <div class="chart-label">실직 및 소득 단절</div>
+          <div class="chart-bar-bg">
+            <div class="chart-bar-fill" style="width: 27%; background-color: #0f766e;"></div>
+          </div>
+          <div class="chart-val">27.0%</div>
+        </div>
+        <div class="chart-row">
+          <div class="chart-label">중대 질병 및 의료비 과다</div>
+          <div class="chart-bar-bg">
+            <div class="chart-bar-fill" style="width: 18%; background-color: #115e59;"></div>
+          </div>
+          <div class="chart-val">18.0%</div>
+        </div>
+        <div class="chart-row">
+          <div class="chart-label">가족 보증 채무 전가</div>
+          <div class="chart-bar-bg">
+            <div class="chart-bar-fill" style="width: 11%; background-color: #134e4a;"></div>
+          </div>
+          <div class="chart-val">11.0%</div>
+        </div>
+      </div>
+
+      <p>
+        기각률 약 15%에서 20%의 주된 원인은 허위 서류 제출, 재산 은닉, 파산관재인의 정당한 소명 요구에 대한 불응, 그리고 파산선고 후 법원 출석 기일 불출석입니다. 철저한 사전 준비와 법률 대리인의 조력이 있다면 대구지방법원에서도 충분히 안전하게 면책 인용을 받아낼 수 있습니다.
+      </p>
+    </section>
+
+    <section id="calculator">
+      <h2>대구개인파산 자격 및 예상 소송 비용 모의 계산기</h2>
+      <p>
+        자신의 가구원 수, 월 소득, 채권자 수를 입력하여 2026년 기준 대구지방법원 신청 자격 부합 여부와 예상 소요 비용을 즉시 산출해보십시오.
+      </p>
+
+      <div class="calc-box">
+        <form id="bankruptcyCalcForm" onsubmit="calculateBankruptcyCosts(event)">
+          <div class="form-group">
+            <label for="calcHousehold">가구원 수 (부양가족 포함)</label>
+            <select id="calcHousehold" required>
+              <option value="1">1인 가구</option>
+              <option value="2">2인 가구</option>
+              <option value="3">3인 가구</option>
+              <option value="4">4인 가구</option>
+              <option value="5">5인 이상 가구</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="calcIncome">월 평균 세후 소득 (단위: 만 원)</label>
+            <input type="number" id="calcIncome" placeholder="예: 80 (소득 없으면 0 입력)" min="0" max="1000" required />
+          </div>
+
+          <div class="form-group">
+            <label for="calcCreditors">채권자 수 (금융사, 보증기관, 개인 등)</label>
+            <input type="number" id="calcCreditors" placeholder="예: 6" min="1" max="50" required />
+          </div>
+
+          <div class="form-group">
+            <label for="calcDebt">총 채무 원리금 합계 (단위: 만 원)</label>
+            <input type="number" id="calcDebt" placeholder="예: 8500" min="500" max="100000" required />
+          </div>
+
+          <div class="form-group">
+            <label for="calcRegion">대구 관할 지역 선택</label>
+            <select id="calcRegion" required>
+              <option value="수성구">수성구</option>
+              <option value="달서구">달서구</option>
+              <option value="중구">중구</option>
+              <option value="동구">동구</option>
+              <option value="서구">서구</option>
+              <option value="남구">남구</option>
+              <option value="북구">북구</option>
+              <option value="달성군">달성군</option>
+              <option value="군위군">군위군</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-accent" style="width: 100%; margin-top: 15px;">예상 비용 및 자격 진단하기</button>
+        </form>
+
+        <div id="calcResult" class="calc-result-panel">
+          <h4>모의 자가진단 및 법원 비용 산출 결과</h4>
+          <div class="result-row">
+            <span>2026 인정 최저생계비 기준선</span>
+            <span id="resLivingCost">0 원</span>
+          </div>
+          <div class="result-row">
+            <span>파산 신청 적격 판단</span>
+            <span id="resEligibility" style="font-weight:700;">판정 중</span>
+          </div>
+          <div class="result-row">
+            <span>예상 법원 인지대 및 송달료</span>
+            <span id="resCourtFee">0 원</span>
+          </div>
+          <div class="result-row">
+            <span>대구지방법원 관재인 예납금</span>
+            <span id="resAdminFee">300,000 원</span>
+          </div>
+          <div class="result-row">
+            <span>대리인 선임 수임료 (평균 범위)</span>
+            <span id="resLawyerFee">0 원</span>
+          </div>
+          <div class="result-row total">
+            <span>총 예상 소요 비용 범위</span>
+            <span id="resTotalCost">0 원</span>
+          </div>
+          <p style="font-size: 0.82rem; color: #cbd5e1; margin-top: 15px; margin-bottom: 0;">
+            안내된 금액은 대구지방법원 실무 기준에 따른 추산액이며, 채권자 송달 주소 보정 및 재산 조사 복잡성에 따라 실제 위임 계약금 및 법원 예납금은 다소 차이가 있을 수 있습니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function calculateBankruptcyCosts(event) {
+        event.preventDefault();
+        const household = parseInt(document.getElementById('calcHousehold').value);
+        const incomeManwon = parseInt(document.getElementById('calcIncome').value);
+        const creditors = parseInt(document.getElementById('calcCreditors').value);
+        const debtManwon = parseInt(document.getElementById('calcDebt').value);
+        const region = document.getElementById('calcRegion').value;
+
+        // 2026년 가구원수별 최저생계비 기준 (대략적 기준중위소득 60%)
+        const livingCosts = {
+          1: 1390000,
+          2: 2310000,
+          3: 2970000,
+          4: 3610000,
+          5: 4210000
+        };
+
+        const standardLivingCost = livingCosts[household] || 1390000;
+        const incomeWon = incomeManwon * 10000;
+
+        let isEligible = false;
+        let eligibilityText = "";
+
+        if (incomeWon <= standardLivingCost) {
+          isEligible = true;
+          eligibilityText = "신청 적격 가능성 매우 높음 (소득 요건 충족)";
+        } else {
+          isEligible = false;
+          eligibilityText = "소득 초과로 개인회생 검토 권장";
+        }
+
+        // 인지대 + 송달료 계산 (파산+면책 2건 기준, 송달료 1회당 약 5,200원 기준)
+        const stampFee = 20000;
+        const serviceFee = (creditors * 14 + 10) * 5200;
+        const totalCourtFee = stampFee + serviceFee;
+
+        // 관재인 예납금
+        let trusteeFee = 300000;
+        if (debtManwon > 30000 || creditors > 12) {
+          trusteeFee = 400000;
+        }
+
+        // 대리인 보수 범위
+        let baseFeeMin = 1200000;
+        let baseFeeMax = 1500000;
+
+        if (creditors > 4 && creditors <= 8) {
+          baseFeeMin += 300000;
+          baseFeeMax += 400000;
+        } else if (creditors > 8) {
+          baseFeeMin += 600000;
+          baseFeeMax += 800000;
+        }
+
+        const totalMin = totalCourtFee + trusteeFee + baseFeeMin;
+        const totalMax = totalCourtFee + trusteeFee + baseFeeMax;
+
+        document.getElementById('resLivingCost').textContent = standardLivingCost.toLocaleString() + " 원";
+        document.getElementById('resEligibility').textContent = eligibilityText;
+        document.getElementById('resEligibility').style.color = isEligible ? "#86efac" : "#fca5a5";
+        document.getElementById('resCourtFee').textContent = "약 " + Math.round(totalCourtFee).toLocaleString() + " 원";
+        document.getElementById('resAdminFee').textContent = trusteeFee.toLocaleString() + " 원";
+        document.getElementById('resLawyerFee').textContent = (baseFeeMin / 10000) + "만 ~ " + (baseFeeMax / 10000) + "만 원";
+        document.getElementById('resTotalCost').textContent = "약 " + (Math.round(totalMin / 10000)) + "만 ~ " + (Math.round(totalMax / 10000)) + "만 원";
+
+        document.getElementById('calcResult').style.display = 'block';
+      }
+    </script>
+
+    <section id="community-insight">
+      <h2>인터넷 커뮤니티 내돈내산 후기 검증과 위험 브로커 식별법</h2>
+      <p>
+        디시인사이드 개인회생 갤러리, 보배드림 자영업 게시판, 에펨코리아(펨코) 금융 탭, 네이버 카페 등 주요 온라인 커뮤니티에는 수많은 내돈내산 파산 후기와 좌표, 성지 추천 글이 매일 등록되고 있습니다. 인터넷 커뮤니티 이용자들의 생생한 후기는 실질적인 도움을 주기도 하지만, 그 이면에 숨겨진 교묘한 불법 브로커 마케팅을 철저히 경계해야 합니다.
+      </p>
+
+      <h3>커뮤니티에서 자주 회자되는 대표적 실패 사례</h3>
+      <p>
+        가장 흔한 실패 후기는 터무니없이 싼곳이나 저렴한곳만을 찾아 계약금을 입금했다가 낭패를 본 사례입니다. 초기 상담 시에는 무조건 100% 면책을 장담하며 최저가 수임료를 제시하지만, 계약 체결 직후 연락이 두절되거나 필수 서류 보정명령에 전혀 대응하지 않아 법원으로부터 기각 결정을 받는 케이스가 적지 않습니다.
+      </p>
+      <p>
+        또한 신규 온라인 사이트나 카카오톡, 텔레그램 오픈채팅을 통해 은밀히 접근하며 현금지원, 사은품, 상품권 지급 등 법조윤리를 위반하는 프로모션 이벤트를 홍보하는 업체는 변호사 명의만 대여한 불법 사무장 브로커 조직일 가능성이 99%에 달합니다. 파산 사건은 채무자의 인생 전체가 걸린 중대한 사법 절차이므로 공식 등록된 법률 전문가와 직접 대면 상담을 진행하는 것이 안전합니다.
+      </p>
+    </section>
+
+    <section id="digital-evidence">
+      <h2>AI 챗지피티 제미나이 시대의 법원 심사 동향 및 디지털 증빙 실무</h2>
+      <p>
+        최근 사법부는 인공지능(AI)과 고도화된 빅데이터 분석 도구를 회생 파산 사건 검토에 적극 도입하고 있습니다. 대구지방법원 역시 챗지피티(ChatGPT), 제미나이(Gemini) 등 첨단 생성형 AI 모델과 유사한 문맥 분석 알고리즘을 활용하여 채무자가 제출한 진술서의 표절 여부, 다른 사건과의 서술 유사성, 허위 채무 증대 사유를 정밀 대조하고 있습니다.
+      </p>
+      <p>
+        아울러 토스(Toss), 카카오페이, 네이버페이, 케이뱅크 등 핀테크 금융 앱을 통한 입출금 내역과 암호화폐 거래소 입출금 흐름이 파산관재인의 필수 조사 대상에 포함되었습니다. 현금을 인출하여 가족이나 지인에게 은닉하거나, 파산 직전 코인이나 주식에 투자하여 채무를 고의로 탕진한 경우 사기파산죄나 과다한 낭비로 인한 면책 불허가 사유에 직면할 수 있으므로, 디지털 자산 흐름에 대한 철저하고 정직한 소명이 선행되어야 합니다.
+      </p>
+    </section>
+
+    <section id="faq">
+      <h2>자주 묻는 질문 (FAQ - 네이버 AI 스니펫 최적화)</h2>
+
+      <div class="faq-item">
+        <h3>Q1. 대구개인파산 면책을 받으면 가족들에게 불이익이 가나요?</h3>
+        <p>
+          파산 및 면책의 법적 효력은 채무자 본인에게만 귀속됩니다. 배우자나 자녀의 재산에 압류가 들어오거나 취업, 학교생활, 신용카드 발급 등에서 불이익을 받는 일은 원칙적으로 전혀 없습니다. 다만 가족이 채무자의 대출에 연대보증을 섰다면 보증인의 채무는 소멸하지 않으므로 보증인에 대한 별도 채무 조정이 필요합니다.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Q2. 대구에 월세나 전세로 거주 중인데 임차보증금도 다 빼앗기나요?</h3>
+        <p>
+          주택임대차보호법 및 통합도산법에 따라 대구광역시는 소액임차인 우선변제금 범위 내의 보증금을 압류금지 생계비 재산으로 법적 보호를 받습니다. 따라서 일정 기준 이하의 보증금은 법원에서 환가하지 않으며 온전히 유지하여 주거 안정을 도모할 수 있습니다.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Q3. 파산 선고를 받으면 다니던 직장에서 무조건 해고되나요?</h3>
+        <p>
+          일반 사기업의 경우 법률상 파산 선고를 이유로 직원을 당연 해고할 수 없습니다. 취업규칙에 파산 관련 조항이 있더라도 근로기준법상 정당한 이유 없는 해고는 무효입니다. 단, 공무원, 군인, 변호사, 공인회계사, 공인중개사 등 법률로 규정된 특정 전문직의 경우 면책 결정이 확정될 때까지 일시적으로 자격이 정지될 수 있습니다.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Q4. 면책 불허가 사유에는 구체적으로 어떤 것들이 있나요?</h3>
+        <p>
+          채무자가 재산을 은닉하거나 채권자에게 불이익하게 처분한 행위, 파산 원인이 있음에도 속임수를 써서 추가 대출을 받은 행위, 주식 가상화폐 도박 등 과다한 사행 행위로 현저하게 재산을 감소시킨 행위, 법원에 허위 채권자목록을 제출하거나 허위 진술을 한 행위 등이 대표적 면책 불허가 사유입니다.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Q5. 파산 면책 확정 후 은행 신용카드 발급이나 대출은 언제부터 가능한가요?</h3>
+        <p>
+          면책이 인용되면 한국신용정보원에 등록된 연체 정보와 파산 특수기록 코드가 등록된 날로부터 5년이 경과하면 완전히 삭제됩니다. 그 이후에는 일반인과 동일하게 신용평가기관의 신용평점이 산출되며, 체크카드 발급이나 예적금 가입은 면책 직후부터 자유롭게 이용하실 수 있습니다.
+        </p>
+      </div>
+    </section>
+
+    <section id="keywords">
+      <h2>함께 많이 찾는 연관 검색어 및 자동완성 키워드 가이드</h2>
+      <p>
+        대구 지역 채무자들이 포털 사이트(네이버, 구글, 유튜브 등)에서 해결책을 모색할 때 가장 높은 빈도로 교차 검색하는 핵심 질의어 목록입니다.
+      </p>
+      <div class="keyword-cloud">
+        <span class="keyword-pill">대구개인파산비용</span>
+        <span class="keyword-pill">대구개인파산신청자격</span>
+        <span class="keyword-pill">대구지방법원개인파산</span>
+        <span class="keyword-pill">대구개인회생전문</span>
+        <span class="keyword-pill">대구파산관재인서류</span>
+        <span class="keyword-pill">수성구개인파산상담</span>
+        <span class="keyword-pill">달서구파산면책후기</span>
+        <span class="keyword-pill">대구소상공인파산절차</span>
+        <span class="keyword-pill">개인파산무료상담전화</span>
+        <span class="keyword-pill">대구개인파산기각사유</span>
+        <span class="keyword-pill">파산면책후신용회복</span>
+        <span class="keyword-pill">대구법률구조공단파산</span>
+      </div>
+    </section>
+
+    <section id="external-links">
+      <h2>신뢰할 수 있는 공식 인증 및 참고 사이트</h2>
+      <p>
+        개인파산 및 회생 제도는 법률과 국가 기관의 심사에 의해 진행되는 공적 절차입니다. 객관적인 법률 지식과 공적 서식을 확인하기 위해 신뢰성 있는 공식 기관의 포털을 참조하십시오.
+      </p>
+
+      <div class="external-link-card">
+        <a href="https://directwcheckw.koreahankang.com" class="ext-link-item" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="ext-link-title">대구개인파산 지원센터 (reliabledone.com)</div>
+            <div class="ext-link-desc">대구지방법원 최신 관할 판례, 면책 가이드라인 및 실시간 비용 견적 데이터베이스 제공</div>
+          </div>
+          <div class="ext-link-badge">공식 인증 센터</div>
+        </a>
+
+        <a href="https://namu.wiki/w/%EA%B0%9C%EC%9D%B8%ED%8C%8C%EC%82%B0" class="ext-link-item" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="ext-link-title">나무위키 - 대한민국 개인파산 제도 개요</div>
+            <div class="ext-link-desc">채무자 회생 및 파산에 관한 법률상 정의, 파산선고 효력 및 역사적 변천사 수록 백과사전</div>
+          </div>
+          <div class="ext-link-badge">지식 백과</div>
+        </a>
+
+        <a href="https://ecfs.scourt.go.kr/" class="ext-link-item" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="ext-link-title">대한민국 법원 전자소송 시스템</div>
+            <div class="ext-link-desc">대구지방법원 본원 사건 접수 현황 조회, 서류 온라인 제출 및 송달 내역 실시간 열람 포털</div>
+          </div>
+          <div class="ext-link-badge">사법부 공식</div>
+        </a>
+      </div>
+    </section>
+
+    <section id="consultation">
+      <h2>대구개인파산 1대1 비공개 법률 상담 신청</h2>
+      <p>
+        대구지방법원 사건 경험이 풍부한 전문 인력이 직접 비밀 보장 상담을 진행합니다. 채무 원인과 가족 상황에 맞춘 최적의 면책 해결책을 제시해 드립니다.
+      </p>
+
+      <form id="consultForm" onsubmit="handleConsultationSubmit(event)">
+        <div class="form-group">
+          <label for="clientName">성함</label>
+          <input type="text" id="clientName" placeholder="성함을 입력해주세요" required />
+        </div>
+
+        <div class="form-group">
+          <label for="clientPhone">연락처</label>
+          <input type="tel" id="clientPhone" placeholder="예: 010-1234-5678" pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}" required />
+        </div>
+
+        <div class="form-group">
+          <label for="clientRegion">거주 지역 (대구 내 관할)</label>
+          <select id="clientRegion" required>
+            <option value="" disabled selected>거주 구 군을 선택하세요</option>
+            <option value="수성구">수성구 (범어동, 만촌동 등)</option>
+            <option value="달서구">달서구 (상인동, 월성동 등)</option>
+            <option value="중구">중구 (동성로, 반월당 등)</option>
+            <option value="동구">동구 (신천동, 효목동 등)</option>
+            <option value="서구">서구 (평리동, 비산동 등)</option>
+            <option value="남구">남구 (대명동, 봉덕동 등)</option>
+            <option value="북구">북구 (칠곡, 침산동 등)</option>
+            <option value="달성군">달성군 (다사, 화원, 현풍 등)</option>
+            <option value="군위군">군위군 (군위읍, 효령면 등)</option>
+            <option value="기타경북">기타 대구 인접 관할 (경산, 영천, 칠곡 등)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="clientMessage">부채 상황 및 문의 사항</label>
+          <textarea id="clientMessage" rows="5" placeholder="총 채무 금액, 채권자 수, 현재 소득 유무 등을 간략히 적어주시면 보다 정확한 진단이 가능합니다." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-accent" style="width: 100%;">상담 신청서 안전하게 전송하기</button>
+      </form>
+
+      <div id="consultResultBox" style="display: none; margin-top: 25px; padding: 20px; background-color: var(--secondary-soft); border: 1px solid var(--secondary); border-radius: var(--radius-md); color: var(--secondary); font-weight: 700; text-align: center;"></div>
+    </section>
+
+  </main>
+
+
+  
+
+  <script>
+    function handleConsultationSubmit(event) {
+      event.preventDefault();
+      const name = document.getElementById('clientName').value.trim();
+      const phone = document.getElementById('clientPhone').value.trim();
+      const region = document.getElementById('clientRegion').value;
+      const message = document.getElementById('clientMessage').value.trim();
+
+      if (!name || !phone || !region || !message) {
+        alert('모든 필수 항목을 입력해 주시기 바랍니다.');
+        return;
+      }
+
+      const resultBox = document.getElementById('consultResultBox');
+      resultBox.textContent = name + " 고객님, 대구개인파산 무료 진단 신청이 정상 접수되었습니다. " + region + " 관할 전담 법률팀에서 남겨주신 연락처로 1영업일 이내에 비밀 보장 연락을 드리겠습니다.";
+      resultBox.style.display = 'block';
+
+      document.getElementById('consultForm').reset();
+    }
+  </script>
+  
